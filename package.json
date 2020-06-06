@@ -17,6 +17,13 @@
     "last 2 versions",
     "not ie <= 8"
   ],
+  "keywords": [
+    "new-storage-manager",
+    "storage-manager",
+    "storage",
+    "localStorage",
+    "sessionStorage"
+  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -29,5 +36,10 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/heerya/new-storage-manager/issues",
+    "email": "1250135011@qq.com"
+  },
+  "homepage": "https://github.com/heerya/new-storage-manager"
 }
