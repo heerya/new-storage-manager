@@ -1,7 +1,7 @@
 {
   "name": "new-storage-manager",
-  "description": "A Vue.js project",
-  "version": "1.0.0",
+  "description": "A simple storage manager",
+  "version": "1.0.2",
   "author": "heyuxin <heyuxin@qianxin.com>",
   "license": "MIT",
   "private": false,

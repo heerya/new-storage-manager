@@ -16,7 +16,7 @@ storage.setStore('age',22,{group:'heyuxin'})
 ## 配置参数
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
 | ---- | ---- | ---- | ---- | ---- |
-| expire | 单位 秒|s 存储数据的有效时间 | Number | - | - |
+| expire | 存储数据的有效时间（单位ms） | Number | - | - |
 | local | 选择持久存储还是暂时存储 | Boolean | true（持久存储） false（暂时存储）） | false |
 | group | 该数据分配的所属组 | String | - | null（不分配） |
 ## 方法
@@ -30,7 +30,7 @@ storage.setStore('age',22,{group:'heyuxin'})
 options参数
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
 | ---- | ---- | ---- | ---- | ---- |
-| expire | 过期时间 | Number | - | - |
+| expire | 过期时间（单位ms） | Number | - | - |
 | group | 组名称 | String | - | - |
 ### getStore
 获取存储的值
