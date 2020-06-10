@@ -2,7 +2,7 @@
   "name": "new-storage-manager",
   "description": "管理存储数据的方法，利用LocalStorage和SessionStorage实现的可分组可设置过期时间的数据存储方法",
   "version": "1.0.3",
-  "author": "heyuxin <heyuxin@qianxin.com>",
+  "author": "heyuxin <1250135011@qq.com>",
   "license": "MIT",
   "private": false,
   "scripts": {

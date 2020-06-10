@@ -24,8 +24,8 @@ storage.setStore('age',22,{group:'heyuxin'})
 存储数据
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
 | ---- | ---- | ---- | ---- | ---- |
-| key | 需要存储值的key | String | - | - |
-| val | 需要存储的值 | Any | - | - |
+| key | 本地缓存中指定的 key | String | - | - |
+| val | 需要存储的内容。只支持原生类型、Date、及能够通过JSON.stringify序列化的对象。 | Any | - | - |
 | options | 过期时间和所属组，详见下面表格 | Object | - | null |
 options参数
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
